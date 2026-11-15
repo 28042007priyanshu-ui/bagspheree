@@ -6,7 +6,7 @@ BagSphere is a local, dependency-free NFC lost-bag recovery demo.
 - **C**: FIFO queue for incoming finder-location reports (`reports_queue.c`)
 - **C++**: HTTP server, persistence, routing, bag registration and dashboard logic (`server.cpp`)
 - **HTML/CSS/JavaScript**: browser UI and phone location permission
-- No Python, Node.js, framework, or database service is required.
+- No Python, Node.js, framework, or database service is required
 
 ## Run
 
