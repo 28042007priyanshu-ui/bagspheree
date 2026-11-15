@@ -1,0 +1,28 @@
+hosting
+
+step 1- 
+
+ngrok ki zip se ngrok exe ko program files me ngrok ke folder ke andar extract karna hai
+
+step 2-
+
+& "C:\Program Files\ngrok\ngrok.exe" config add-authtoken "3IJYizOWGZkwJnAy0na1GpwK1po_2fQ2eXjRdTkmvqMSGSgP4"
+ 
+ye upar wali line as it is terminal pe paste karni 
+agar error aayi to ngrok ki website se auth token revoke karna aur naya wala paste karna "iske andar"
+koi error nahi aayi to....
+
+step 3 -
+
+dusra terminal kholke usme ye paste karo 
+
+.\start.bat
+
+iske baad program start hojayga lekin abhi host ni hoga 
+
+step 4-
+
+& "C:\Program Files\ngrok\ngrok.exe" http 8000
+
+ye paste karne ke baad sever bhi chalna shuru hojayga
+phones me chala sakte hai abb
