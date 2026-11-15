@@ -39,6 +39,7 @@ The server creates its local data files under `data/`.
 
 ## NFC deployment note
 
+
 Browser geolocation is normally available only in secure contexts. `localhost` is treated as a secure context by modern browsers for development, but a finder using a different phone/network cannot reach your computer's localhost.
 
 For real NFC use:
